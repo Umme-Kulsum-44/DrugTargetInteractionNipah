@@ -1,0 +1,22 @@
+name: appenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - rdkit
+  - flask
+  - gunicorn
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - scikit-image
+  - pip
+  - pip:
+    - Flask-Material==0.1.1
+    - requests
+    - joblib
+    - tqdm
+    - transformers
+    - torch
+    - matplotlib
